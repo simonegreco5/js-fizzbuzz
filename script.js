@@ -19,9 +19,8 @@ for (let i = 1; i <= 100; i++) {
 
     // condition no multiple
     // se non è multiplo nè di 3 nè di 5 stampiamo il numero normalmente
-    } else 
-        console.log(i);
-        
-
+    } else {
+        console.log(i)
+    }
 
 }
