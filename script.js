@@ -3,19 +3,25 @@
 for (let i = 1; i <= 100; i++) {
 
     // condition multiple of 3
+    // se è multiplo di 3 stampiamo la stringa 'Fizz'
     if (i % 3 === 0) {
         console.log('Fizz')
 
     // condition multiple of 5
+    // se è multiplo di 5 stampiamo la stringa 'Buzz'
     } else if (i % 5 === 0) {
         console.log('Buzz')
 
     // condition multiple of 3 and 5
+    // se è multiplo di 3 e 5 stampiamo la stringa 'FizzBuzz'
     } else if (i % 3 === 0 && i % 5 === 0) {
         console.log('FizzBuzz')
 
+    // condition no multiple
+    // se non è multiplo nè di 3 nè di 5 stampiamo il numero normalmente
+    } else 
+        console.log(i);
         
-    }
 
 
 }
